@@ -1,0 +1,6 @@
+/target/
+/.settings/
+/reports/
+/.classpath
+/.project
+/substrate-annotation-reflection
