@@ -8,6 +8,7 @@ public class Main {
     public static void main(String[] args) throws IllegalAccessException, IllegalArgumentException, InvocationTargetException,
             NoSuchMethodException, SecurityException {
         TestAnnotation annotation = Main.class.getAnnotation(TestAnnotation.class);
+        //System.out.println(TestAnnotation.class.getDeclaredMethod("maxRetries").invoke(annotation));
         System.out.println(annotation.getClass().getDeclaredMethod("maxRetries").invoke(annotation));
     }
 
